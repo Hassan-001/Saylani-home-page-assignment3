@@ -1,0 +1,117 @@
+.topnav{
+    background-color: #316DC3 !important
+    
+}
+.icons{
+    color: white !important;
+    margin-left: 50px;
+}
+.mainNavabr img{
+    height: 50px;
+    margin-left: 80px;
+}
+.navcon{
+    margin: 0 14px 0 4px !important;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    li a.active{
+        background-color: #316DC3 !important;
+        border-radius: 10% !important;
+    }
+    li a:hover{
+        background-color: #316DC3;
+        border-radius: 10% !important;
+    }
+  }
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+.mt-4, .mb-4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 0px;
+}
+.news{
+    background-color:#316DC3 ;
+    color: white;
+    padding: 5px;
+}
+.pics{
+    /* padding: 70px 30px 70px 30px; */
+    margin: 0px auto;
+    background: #316DC3;
+    color: floralwhite;
+}
+
+.holder { 
+    background-color:white;
+    width:300px;
+    height:250px;
+    overflow:hidden;
+    padding:10px;
+    font-family:Helvetica;
+  }
+  .holder .mask {
+    position: relative;
+    left: 0px;
+    top: 10px;
+    width:300px;
+    height:240px;
+    overflow: hidden;
+  }
+  .holder ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    position: relative;
+  }
+  .holder ul li {
+    padding:10px 0px;
+  }
+  .holder ul li a {
+    color:darkred;
+    text-decoration:none;
+  }
+
+  .footer{
+    background-color: rgb(27, 27, 27);;
+}
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+    
+}
+.col-auto{
+    text-align: left;
+    width: 100%;
+    background-color: #316DC3;
+}
+.image{
+    margin-bottom: 100px;
+}
+
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 200px;
+    display: inline-block;
+}
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+}
